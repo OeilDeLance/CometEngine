@@ -28,9 +28,7 @@
 cpContact*
 cpContactInit(cpContact *con, cpVect p, cpVect n, cpFloat dist, cpHashValue hash)
 {
-	con->p = p;
-	con->n = n;
-	con->dist = dist;
+	
 	
 	con->jnAcc = 0.0f;
 	con->jtAcc = 0.0f;
